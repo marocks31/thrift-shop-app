@@ -1,0 +1,25 @@
+### Photos Index
+GET http://localhost:3000/photos.json
+
+### Photos Create
+GET http://localhost:3000/photos/4.json
+Content-Type: application/json
+
+{"name": "test name",
+"width": 640,
+"height": 480}
+
+### Photos Show
+http://localhost:3000/photos/1.json
+
+### Photos Update
+PATCH http://localhost:3000/photos/1.json
+Content-Type: application/json
+
+{"name": "1987 Fraggle Rock T-shirt",
+"width": 320,
+"height": 240}
+
+### Photos Destroy
+http://localhost:3000/photos/
+
