@@ -10,7 +10,7 @@ Content-Type: application/json
 "height": 480}
 
 ### Photos Show
-http://localhost:3000/photos/1.json
+GET http://localhost:3000/photos/1.json
 
 ### Photos Update
 PATCH http://localhost:3000/photos/1.json
