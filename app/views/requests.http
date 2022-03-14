@@ -1,8 +1,8 @@
 ### Photos Index
-GET http://localhost:3000/photos.json
+GET http://localhost:3000/photos
 
 ### Photos Create
-GET http://localhost:3000/photos/4.json
+POST http://localhost:3000/photos
 Content-Type: application/json
 
 {"name": "test name",
@@ -10,10 +10,10 @@ Content-Type: application/json
 "height": 480}
 
 ### Photos Show
-GET http://localhost:3000/photos/1.json
+GET http://localhost:3000/photos/1
 
 ### Photos Update
-PATCH http://localhost:3000/photos/1.json
+PATCH http://localhost:3000/photos/1
 Content-Type: application/json
 
 {"name": "1987 Fraggle Rock T-shirt",
@@ -21,5 +21,5 @@ Content-Type: application/json
 "height": 240}
 
 ### Photos Destroy
-http://localhost:3000/photos/
+DELETE http://localhost:3000/photos/4
 
